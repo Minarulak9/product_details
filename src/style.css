@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.btn-success{
+    background-color: #08bd80 !important;
+    border: none;
+}
+.success{
+    background-color: #08bd80 !important;
+    color: white;
+    font-size: .7rem;
+    font-weight: bold;
+}
+.primary{
+    background-color: #2d8cff;
+    color: white;
+    font-size: .7rem;
+    font-weight: bold;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    width: 100%;
+}
+.course_btns a{
+    width: 200px;
+
+}
+.coupon{
+    color: darkblue;
+    font-weight: 500;
+    font-size: .8rem;
+}
+.disclaimer{
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 10px;
+    font-size: .8rem;
+}
+.navigation{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 100;
+}
+.nav-items{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.nav-items li a{
+    font-weight: 500;
+    padding: 25px 0;
+    font-size: 1.1rem;
+    color: rgb(117, 117, 117);
+    display: inline-block;
+    text-decoration: none;
+}
+.nav-items li.active{
+    border-bottom: 2px solid black;
+}
+.details{
+    background-color: rgb(245, 245, 245);
+}
+.bg-light{
+    background-color: white !important;
+}
+.cards{
+    list-style: none;
+}
+.duration{
+    font-size: .8rem;
+}
+.cap{
+    font-size: .9rem;
+    font-weight: 500;
+}
+.ar{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+
+}
+.title{
+    font-size: .9rem;
+}
+.course-card{
+    position: sticky;
+    top: 80px;
+}
