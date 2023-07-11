@@ -88,3 +88,32 @@ nav{
     position: sticky;
     top: 80px;
 }
+.modal-dialog{
+    top: 15%;
+}
+.modal-header{
+    background-color: #eeeeee;
+}
+.login-text{
+    font-size: .8rem;
+}
+.modal-footer{
+    border-top: none !important;
+    justify-content: center !important;
+}
+.bg{
+    background-color: rgb(230, 230, 230);
+}
+.container-me{
+    max-width: 600px;
+    margin: auto;
+    height: 100vh;
+    overflow: hidden;
+}
+.card{
+    height: 100vh;
+
+}
+.cap{
+    background-color: rgb(233, 233, 233);
+}
